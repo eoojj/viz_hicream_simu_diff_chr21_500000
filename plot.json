@@ -222,6 +222,7 @@
  "na.rm": false,
 "na.rm": false,
 "alpha":        1,
+"chunk_vars": "round_regions",
 "clickSelects": "Cluster",
 "alpha_off":        1,
 "showSelected": "round_regions",
@@ -238,16 +239,26 @@
 "showSelected1": "character",
 "PANEL": "integer" 
 },
-"chunk_order": [],
+"chunk_order": [
+ "round_regions" 
+],
 "nest_order": [
- "showSelected1",
-"group" 
+ "group" 
 ],
-"subset_order": [
- "showSelected1" 
-],
-"chunks": 1,
-"total": 1 
+"subset_order": [],
+"columns": {
+ "common": [
+ "group",
+"x",
+"y" 
+] 
+},
+"chunks": {
+ "5600,0": 1,
+"5650,0": 2,
+"5700,0": 3 
+},
+"total": 3 
 },
 "geom5_path_genomeZoom": {
  "geom": "path",
