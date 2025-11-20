@@ -213,7 +213,6 @@
  "x": "rel_corner_x",
 "y": "rel_corner_y",
 "fill": "TPRate",
-"colour": "TPRate",
 "group": "rel_regions",
 "clickSelects": "Cluster",
 "showSelected1": "round_regions" 
@@ -222,6 +221,7 @@
  "na.rm": false,
 "na.rm": false,
 "alpha":        1,
+"colour": "#BEBEBE",
 "chunk_vars": "round_regions",
 "clickSelects": "Cluster",
 "alpha_off":        1,
@@ -231,7 +231,6 @@
 },
 "types": {
  "fill": "rgb",
-"colour": "rgb",
 "x": "numeric",
 "y": "numeric",
 "group": "character",
@@ -1002,20 +1001,20 @@
 "genomeZoom": {
  "panel_margin_lines":     0.27,
 "legend": {
- "TPRate": {
+ "TDP": {
  "guide": "legend",
 "geoms": "polygon",
-"title": "TPRate",
-"class": "TPRate",
+"title": "TDP",
+"class": "TDP",
 "selector": null,
 "is_discrete": false,
-"legend_type": [ "fill", "colour" ],
+"legend_type": "fill",
 "text_size": "9.6pt",
 "title_size": "12pt",
 "entries": [
  {
  "polygonfill": "#CD1076",
-"polygoncolour": "#000000",
+"polygoncolour": "#BEBEBE",
 "polygonsize":      0.5,
 "polygonlinetype":        1,
 "polygonalpha":        1,
@@ -1023,7 +1022,7 @@
 },
 {
  "polygonfill": "#DF6396",
-"polygoncolour": "#333333",
+"polygoncolour": "#BEBEBE",
 "polygonsize":      0.5,
 "polygonlinetype":        1,
 "polygonalpha":        1,
@@ -1031,7 +1030,7 @@
 },
 {
  "polygonfill": "#EE99B8",
-"polygoncolour": "#646464",
+"polygoncolour": "#BEBEBE",
 "polygonsize":      0.5,
 "polygonlinetype":        1,
 "polygonalpha":        1,
@@ -1039,7 +1038,7 @@
 },
 {
  "polygonfill": "#F9CCDB",
-"polygoncolour": "#9A9A9A",
+"polygoncolour": "#BEBEBE",
 "polygonsize":      0.5,
 "polygonlinetype":        1,
 "polygonalpha":        1,
@@ -1047,7 +1046,7 @@
 },
 {
  "polygonfill": "#FFFFFF",
-"polygoncolour": "#D3D3D3",
+"polygoncolour": "#BEBEBE",
 "polygonsize":      0.5,
 "polygonlinetype":        1,
 "polygonalpha":        1,
